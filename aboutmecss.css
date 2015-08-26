@@ -88,26 +88,31 @@ video {}
 body {
   /* Typography Declarations */
   
-  color: #ffffff;
+  color: #858585;
+  background-color: #1b1c1d;
   font-size: 1em;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 150%;
+ 
 }
 /*Header*/
 
 .masthead-heading,
 .masthead-intro {
-  text-align: center;
+  text-align: left;
    background-image: url('https://mailerdocs.s3.amazonaws.com/ukchanges/email_assets/5082/bglee4.jpg');
-   padding-bottom: 1em; padding-top: 1em;
+   padding-bottom: 1em; padding-top: 1em; padding-left: 29.6em;
    margin-top: 0px;
    margin-bottom: 0px;
+   margin-right: 0px;
   
-}
+} 
 
 .masthead {
   margin-bottom: 0em;
     padding-top: 0em;
-  padding-bottom: 0.1em;
+  padding-bottom: 0em;
+  background-color: #ffffff;
  
 }
 
@@ -139,7 +144,7 @@ h2 {
 
 h3 {
   font-size: 20px;
-  color: #858585;
+  color: #ffffff;
   font-family: tahoma;
   padding-bottom: 0.1em;
 }
@@ -166,13 +171,14 @@ h6 {
 
 p {
   font-size: 15px;
-  color: #858585;
+  color: #ffffff;
   font-family: tahoma;
 }
 
 a {
   color: #ffffff;
     text-decoration: none;
+	
 }
 
 a2 {
@@ -181,21 +187,29 @@ a2 {
 }
 
 .masthead a:hover  {
-  border-radius: 10px;
-  background-color:#414141;  
+  color: #858585;
+  transition: all 500ms ease-in-out;
+ 
 }
 /*Common*/
 
 .sectionwide {
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  
   background-color: #858585;
+  background-image: url('https://mailerdocs.s3.amazonaws.com/ukchanges/email_assets/5156/bglee28.jpg');
+  background-size: cover;
+   
 }
 
 .section1 {
-  background-color: #ffffff;
+	 margin-left: 19.5em;
+  margin-right: auto;
+  width: 25%;
+
   padding: 2em 10em;
+  
 }
 
 .footer2 {
@@ -210,5 +224,9 @@ a2 {
 
 .imagebike {
   padding: 0 0 60px 50px;
+}
+
+.aboutmeimg {
+	background-position: left; width:66%;
 }
 /*footer*/
